@@ -27,7 +27,7 @@ public class IndexEchartsTask {
     private StatisService statisService;
 
 
-    @Scheduled(cron = "0 0/59 * * * ? ")
+    @Scheduled(cron = "0 0/1 * * * ? ")
     public void syncData() {
         logger.info("【首页图表数据缓存】");
         try {
